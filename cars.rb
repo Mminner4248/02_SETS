@@ -29,7 +29,7 @@ junkyard = ["Bentley", "Lexus", "Scion", "Honda"].to_set
 
 p junkyard
 
-p showroom.intersection junkyard
+p showroom.intersection(junkyard)
 
 p showroom.union junkyard
 
